@@ -1,0 +1,28 @@
+.formulario {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.github-name,
+.github-joined {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info div:hover i{
+animation: rotar .5s linear;
+}
+
+@keyframes rotar{
+    0%{
+       transform: rotate(0deg); 
+    }
+    33%{
+        transform: rotate(-45deg); 
+    }
+    66%{
+        transform: rotate(45deg);
+    }
+
+}
